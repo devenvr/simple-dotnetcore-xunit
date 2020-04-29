@@ -13,7 +13,7 @@ namespace Tests
         public void Get_NoArguments_ReturnsDefaultForecastDays()
         {
             var controller = new WeatherForecastController(loggerStub.Object);
-            var expectedDays = 7;
+            var expectedDays = 5;
 
             var forecasts = controller.Get();
 
